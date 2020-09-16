@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollStats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFFBFB"
+        android:orientation="vertical"
+        tools:context=".dataActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="8dp"
+                android:text="Answer the below Questions"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fever"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:width="170dp"
+                android:text="1.Do You Have Fever?" />
+
+            <TextView
+                android:id="@+id/drycough"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:width="170dp"
+                android:text="2.Do You Have Dry Cough?" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rbfever"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/fyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/fno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rbdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/syes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/sno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bodypain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="170dp"
+                android:text="3.Do You Have body Pain?" />
+
+            <TextView
+                android:id="@+id/surethroat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:width="170dp"
+                android:text="4.Do You Have Sour Throat?" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rbbpain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/thyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/thno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/stdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/foyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/fono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bproblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="170dp"
+                android:text="5.Do You Have breath Problem?" />
+
+            <TextView
+                android:id="@+id/tiredness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:width="170dp"
+                android:text="6.You feel Tiredness?" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rbbpro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/fiyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/fino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rbtiredness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/siyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="YES"
+                    android:theme="@style/RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/sino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="80dp"
+                    android:text="NO"
+                    android:theme="@style/RadioButton" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="158dp"
+                android:layout_marginTop="8dp"
+                android:text="Fill the Details"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Age"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Phone Number"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/co"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Your country"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#6200EE"
+            android:text="Generate the report" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint=" Search country"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnsubmitc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#6200EE"
+                android:text="Search" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
