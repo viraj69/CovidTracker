@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "543253106744",
+    "firebase_url": "https://covid-19-7d523.firebaseio.com",
+    "project_id": "covid-19-7d523",
+    "storage_bucket": "covid-19-7d523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543253106744:android:d91b18b8fabd837bdf16cd",
+        "android_client_info": {
+          "package_name": "com.company.covidtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543253106744-khc10tspmldabr2an4k8egfue6anjqbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BgIlAojKWmsxNMNC8KX4BuKEFw6rQlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543253106744-khc10tspmldabr2an4k8egfue6anjqbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543253106744:android:696f0a0a19e6d852df16cd",
+        "android_client_info": {
+          "package_name": "com.ebookfrenzy.covidtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543253106744-khc10tspmldabr2an4k8egfue6anjqbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BgIlAojKWmsxNMNC8KX4BuKEFw6rQlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543253106744-khc10tspmldabr2an4k8egfue6anjqbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
