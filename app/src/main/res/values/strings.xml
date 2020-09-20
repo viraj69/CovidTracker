@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">COVID TRACKER</string>
+    <string name="email" tools:ignore="DuplicateDefinition">Email</string>
+    <string name="password" tools:ignore="DuplicateDefinition">Password</string>
+    <string name="already_have_account_sign_in" translatable="false">Already have account? Sign in!</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="not_registered_sign_up_here" translatable="false">Not Registered? Sign Up here!</string>
+    <string name="sign_in" translatable="false">Sign In</string>
+    <string name="today_s_deaths">Today\'s Deaths</string>
+    <string name="_0">0</string>
+    <string name="today_s_cases">Today\'s Cases</string>
+    <string name="tests">Tests</string>
+
+
+</resources>
